@@ -1,5 +1,9 @@
-<style>
-@media screen (min-width: 1160px){
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1160px){
     
 body {
 
@@ -25,12 +29,9 @@ border: 1em;
 margin: 1em;
 background-color: silver;
 padding: 1em;
-display: grid;
 }
 
-img.right{
-    float: inline-start;
-}
+
 .Foreign_language{
     border-radius: 10px;
     border: 1em;
@@ -84,13 +85,49 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 } 
-li{
-    display: inline-block;
-}
-footer{
-background-color: antiquewhite;
-padding: 1em;
-border-radius: 10px;
-}
+@media  screen and (min-width: 900px) {
+    
+.subjects{
+    display: flex;
+    justify-content: space-evenly;
 
-</style>
+}
+.subjects li{
+    border: 1px solid gray;
+    border-radius: 10px;
+    max-width: 24%;
+    display: block;
+    padding: 5px;
+}
+.places{
+    display: flex;
+    justify-content: space-evenly;
+}
+.places li{
+    border: 1px  gray;
+    border-radius: 10px;
+    max-width: 30%;
+    display: block;
+    padding: 5px;
+}
+.picture1{
+    width: 360px;
+}
+.picture2{
+    width: 360px;
+}
+.picture3{
+    width: 360px;
+}
+.mbombela{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mbombela p{
+    border: 1px gray;
+    border-radius: 10px;
+    max-width: 50%;
+    display: block;
+    padding: 5px; 
+}
+}
