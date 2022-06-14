@@ -1,0 +1,96 @@
+<style>
+@media screen (min-width: 1160px){
+    
+body {
+
+    display: flex;
+        
+ }
+}
+.Container{
+    justify-content: center;
+}
+.About_me{
+ border-radius: 10px;
+ border: 1em;
+margin: 1em;
+ background-color: silver;
+ padding: 1em; 
+display: grid;
+background-image: url(Table-Mountain.jpg);
+}
+.city{
+border-radius: 10px;
+border: 1em;
+margin: 1em;
+background-color: silver;
+padding: 1em;
+display: grid;
+}
+
+img.right{
+    float: inline-start;
+}
+.Foreign_language{
+    border-radius: 10px;
+    border: 1em;
+    margin: 1em;
+    background-color:silver;
+    padding: 1em; 
+}
+.Favourite_subjects{
+border-radius: 10px;
+border: 1em;
+margin: 1em;
+background-color: silver;
+padding: 1em;
+}
+
+.Historical_places{
+border-radius: 10px;
+border: 1em;
+margin: 1em;
+background-color: silver;
+padding: 1em;
+
+}
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+img{
+    height: 250px;
+    width: 400px;
+    left: -862px;
+    top: 130px;
+    border-radius: 10px;
+    float: right;
+}
+
+table, tr, td{
+border: 1px solid
+}
+table.center {
+ margin-left: auto; 
+ margin-right: auto;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+} 
+li{
+    display: inline-block;
+}
+footer{
+background-color: antiquewhite;
+padding: 1em;
+border-radius: 10px;
+}
+
+</style>
