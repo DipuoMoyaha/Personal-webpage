@@ -3,26 +3,30 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.About-me{
+    border-radius: 10px;
+    border: 1em;
+   margin: 1em;
+    padding: 4em;
+   background-image: url(Table-Mountain.jpg);
+   background-color: silver;
+}
 @media screen and (min-width: 1160px){
-    
+   
 body {
 
     display: flex;
+    background-color: azure;
         
  }
 }
+
+
 .Container{
     justify-content: center;
 }
-.About_me{
- border-radius: 10px;
- border: 1em;
-margin: 1em;
- background-color: silver;
- padding: 1em; 
-display: grid;
-background-image: url(Table-Mountain.jpg);
-}
+
+
 .city{
 border-radius: 10px;
 border: 1em;
@@ -63,14 +67,7 @@ padding: 1em;
     h2{
         text-align: center;
     }
-img{
-    height: 250px;
-    width: 400px;
-    left: -862px;
-    top: 130px;
-    border-radius: 10px;
-    float: right;
-}
+
 
 table, tr, td{
 border: 1px solid
@@ -98,6 +95,7 @@ padding: 0;
     max-width: 24%;
     display: block;
     padding: 5px;
+    
 }
 .places{
     display: flex;
@@ -109,25 +107,42 @@ padding: 0;
     max-width: 30%;
     display: block;
     padding: 5px;
+    
 }
-.picture1{
-    width: 360px;
-}
-.picture2{
-    width: 360px;
-}
-.picture3{
-    width: 360px;
-}
+
 .mbombela{
     display: flex;
     justify-content: space-evenly;
 }
-.mbombela p{
-    border: 1px gray;
-    border-radius: 10px;
-    max-width: 50%;
-    display: block;
-    padding: 5px; 
+
+#tip-title{
+    font-size:40px;
+    margin-bottom:0%;
+  }
+  #pic-img{
+    height: 250px;
+    width:300px
+  }
+  #title-subheader{
+    font-size:20px;
+  }
+  #top-title{
+    text-transform:capitalize;
+    line-height:normal;
+    text-align:right;
+  }
+  #header-titles{
+    width:65%;
+    margin-left:10%;
+    text-align: left;
+    float: left;
+  }
+  #header-image{
+    width:20%;
+    margin-right:5%;
+    text-align:right;
+    display: grid;
+  }
 }
-}
+
+
